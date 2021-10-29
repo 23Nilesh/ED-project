@@ -1,0 +1,34 @@
+body {
+  /* background-image: url("farmer1.jpg"); */
+  /* background-image: linear-gradient(to bottom,rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url("farmer1.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+.login {
+  box-shadow: blue 0px 0px 3px 0px;
+  background: #fff;
+  width: 50%;
+  margin: auto;
+}
+.input-box i {
+  color: blue;
+}
+.login .heading {
+  font-weight: 500;
+  color: blue;
+}
+
+.registeration p {
+  font-size: small;
+}
+.registeration a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 640px) {
+  .login {
+    width: 100%;
+  }
+}
