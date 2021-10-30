@@ -46,10 +46,11 @@
                 <div class="col-md-6">
                     <select class="form-select form-select-md my-3" aria-label=".form-select-sm example">
                         <option selected>Registeration Type</option>
-                        <option value="1">Male</option>
-                        <option value="2">Female</option>
+                        <option value="1">Buyer</option>
+                        <option value="2">Seller</option>
                     </select>
                 </div>
+                
             </div>
             <p class="personal_details my-3 p-2 bg-primary text-white">Personal Details</p>
             <div class="row my-4">
@@ -58,6 +59,10 @@
                         <span class="input-group-text">Full Name</span>
                         <input type="text" class="form-control" placeholder="Username" aria-label="Username"
                             aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap my-3">
+                        <label for="birthday" class="input-group-text">Date of Birth:</label>
+                        <input type="date" id="birthday" name="birthday" class="mx-3">
                     </div>
                     <div class="input-group flex-nowrap my-3">
                         <span class="input-group-text">Mobile No.</span>
@@ -77,7 +82,47 @@
                         <option value="2">Female</option>
                     </select>
                     <select class="form-select form-select-md my-3" aria-label=".form-select-sm example">
-                        <option selected>Dsitrict</option>
+                        <option selected>State</option>
+                        <option value="">-select-</option>
+                        <option value="99157">ANDAMAN AND NICOBAR ISLANDS (UT)</option>
+                        <option value="9990">ANDHRA PRADESH</option>
+                        <option value="99158">ARUNACHAL PRADESH</option>
+                        <option value="99159">ASSAM</option>
+                        <option value="99119">BIHAR</option>
+                        <option value="99115">CHANDIGARH (UT)</option>
+                        <option value="50">CHHATTISGARH</option>
+                        <option value="99118">DELHI (UT)</option>
+                        <option value="99160">GOA</option>
+                        <option value="9961">GUJARAT</option>
+                        <option value="9997">HARYANA</option>
+                        <option value="9998">HIMACHAL PRADESH</option>
+                        <option value="99156">JAMMU AND KASHMIR (UT)</option>
+                        <option value="99100">JHARKHAND</option>
+                        <option value="99122">KARNATAKA</option>
+                        <option value="99155">KERALA</option>
+                        <option value="99161">LADAKH (UT)</option>
+                        <option value="99162">LAKSHADWEEP (UT)</option>
+                        <option value="99103">MADHYA PRADESH</option>
+                        <option value="12">MAHARASHTRA</option>
+                        <option value="99163">MANIPUR</option>
+                        <option value="99164">MEGHALAYA</option>
+                        <option value="99169">MIZORAM</option>
+                        <option value="99165">NAGALAND</option>
+                        <option value="99117">ODISHA</option>
+                        <option value="5001">PUDUCHERRY (UT)</option>
+                        <option value="99114">PUNJAB</option>
+                        <option value="99109">RAJASTHAN</option>
+                        <option value="99166">SIKKIM</option>
+                        <option value="99121">TAMIL NADU</option>
+                        <option value="28">TELANGANA</option>
+                        <option value="99167">THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU (UT)</option>
+                        <option value="99168">TRIPURA</option>
+                        <option value="99113">UTTAR PRADESH</option>
+                        <option value="99116">UTTARAKHAND</option>
+                        <option value="99120">WEST BENGAL</option>
+                    </select>
+                    <select class="form-select form-select-md my-3" aria-label=".form-select-sm example">
+                        <option selected>District</option>
                         <option value="1">Male</option>
                         <option value="2">Female</option>
                     </select>
@@ -87,6 +132,13 @@
                         <option value="2">Female</option>
                     </select>
                 </div>
+              <div class="col-md-12">
+                <div>Address (Street)</div>
+                <textarea name="" id="" cols="30" rows="7"class="form-control"></textarea>
+                
+         
+              </div>
+              
             </div>
             <p class="Bank_details my-3 p-2 bg-primary text-white">Bank Details</p>
             <div class="row my-4">
@@ -122,6 +174,32 @@
                         <span class="input-group-text">Confirm IFSC code</span>
                         <input type="text" class="form-control" placeholder="Username" aria-label="Username"
                             aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row my-4">
+                <div class="col-md-6">
+                    <div class="my-2"> Upload Copy Of Passbook/Cancelled Check in Support </div>
+                    <input type="file" class="form-control" aria-label="file example" required>
+                    <div class="invalid-feedback">Example invalid form file feedback</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="my-2">Upload One Scan Copy Of Id Proof : </div>
+                    <input type="file" class="form-control" aria-label="file example" required>
+                    <div class="invalid-feedback">Example invalid form file feedback</div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-md-6">
+                        <div class="my-2"> Registration Acknowledgement: <input class="form-check-input mx-3"
+                                type="checkbox" value="" id="DefaultCheckbox"> <label class="form-check-label"
+                                for="DefaultCheckbox">
+                                Get SMS
+                            </label>
+                        </div>
+                        <div class="mb-3 my-3">
+                            <button class="btn btn-primary mx-3" type="submit" disabled>Submit form</button>
+                        </div>
                     </div>
                 </div>
             </div>
