@@ -1,75 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Customer Portal</title>
-  </head>
-  <body>
-    <div class="out">
-      <div class="container">
-        <h1>Complaints ?</h1>
-        <form action="POST">
-          <div class="center-form">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-            />
-          </div>
-          <div class="center-form">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter your email"
-            />
-          </div>
-          <div class="center-form">
-            <label for="tel">Phone No.</label>
-            <input
-              type="number"
-              name="tel"
-              id="tel"
-              placeholder="Enter your Phone Number"
-            />
-          </div>
-          <div class="center-form">
-            <label for="complaint">Tell your issues</label>
-            <input
-              type="text"
-              name="complaint"
-              id="complaint"
-              placeholder="Tell us everything"
-            />
-          </div>
-          <div class="center-form">
-            <label for="sol">What can we do ?</label>
-            <input
-              type="text"
-              name="sol"
-              id="sol"
-              placeholder="How can we help ?"
-            />
-          </div>
-          <div class="center-form">
-            <label for="type">What is the complaint about?</label>
-            <select name="product" id="product">
-              <option value="product">Product</option>
-              <option value="delivery">Delivery</option>
-            </select>
-          </div>
-          <div class="center-form">
-            <button type="submit">Send</button>
 
-          </div>
-        </form>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="customer.css" />
+  <title>Customer Portal</title>
+</head>
+
+<body>
+  <div class="out">
+    <div class="container">
+      <h1>Complaints ?</h1>
+      <form action="POST">
+        <div class="center-form">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="center-form">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="center-form">
+          <label for="tel">Phone No.</label>
+          <input type="number" name="tel" id="tel" placeholder="Enter your Phone Number" />
+        </div>
+        <div class="center-form">
+          <label for="complaint">Tell your issues</label>
+          <input type="text" name="complaint" id="complaint" placeholder="Tell us everything" />
+        </div>
+        <div class="center-form">
+          <label for="sol">What can we do ?</label>
+          <input type="text" name="sol" id="sol" placeholder="How can we help ?" />
+        </div>
+        <div class="center-form">
+          <label for="type">What is the complaint about?</label>
+          <select name="product" id="product">
+            <option value="product">Product</option>
+            <option value="delivery">Delivery</option>
+          </select>
+        </div>
+        <div class="center-form">
+          <button type="submit">Send</button>
+
+        </div>
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
