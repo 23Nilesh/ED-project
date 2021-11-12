@@ -1,7 +1,15 @@
+body{
+    
+}
+.contact-container{
+   
 
+}
 .contact-left  input{
     width: 100%;
+    border: 1px solid #ccc;
     outline: none;
+   
 }
 
 .left-button textarea{
